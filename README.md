@@ -12,7 +12,7 @@ entries indexed by segment regions.
 
 📁 Input Format
 SEGMENT File
-Tab-separated file with two columns per line with file extension (.s):
+Tab-separated file with two columns per line with file extension  <b>(.s)</b> :
 ```
 start<TAB>end
 ```
@@ -24,7 +24,7 @@ Example:
 ```
 
 FUNCTION File
-Plain text file with one float per line with file extension (.f) :
+Plain text file with one float per line with file extension <b>(.f)</b> :
 ```
 1.0
 2.0
@@ -70,6 +70,7 @@ Unit tests are included in the test folder. To run the function tests:
 ```
 python -m unittest path\to\segment_function_folder\test\test_app.py
 ```
+
 
 
 
