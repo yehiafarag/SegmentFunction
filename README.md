@@ -52,7 +52,7 @@ Extract the contents to a folder of your choice.
 
 ## 🚀 Usage
 ```
-python Path/to/segment_function_folder/run.py Path/to/segment.txt Path/to/function.txt
+python path\to\segment_function_folder\run.py path\to\segment.s path\to\function.f
 ```
 ### Inputs
 -  Two segments.s files (calculate segment overlap).
@@ -66,10 +66,11 @@ python Path/to/segment_function_folder/run.py Path/to/segment.txt Path/to/functi
 
 
 ## 🧪 Testing
-Unit tests are included in the ./test/ folder. To run all tests:
+Unit tests are included in the test folder. To run the function tests:
 ```
-python -m unittest .\test\test_app.py
+python -m unittest path\to\segment_function_folder\test\test_app.py
 ```
+
 
 
 
