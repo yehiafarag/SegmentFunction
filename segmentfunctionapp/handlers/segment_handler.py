@@ -1,4 +1,4 @@
-from util.file_reader import FileReader
+from segmentfunctionapp.util.file_reader import FileReader
 
 
 class SegmentFileHandler:
