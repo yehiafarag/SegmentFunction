@@ -1,8 +1,8 @@
 import math
 
-from handlers.function_handler import FunctionFileHandler
-from handlers.segment_handler import SegmentFileHandler
-from util.file_util import Util
+from segmentfunctionapp.handlers.function_handler import FunctionFileHandler
+from segmentfunctionapp.handlers.segment_handler import SegmentFileHandler
+from segmentfunctionapp.util.file_util import Util
 
 
 class App:
