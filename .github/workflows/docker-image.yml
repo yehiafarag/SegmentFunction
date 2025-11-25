@@ -36,6 +36,6 @@ jobs:
 
     - name: Run unit tests
       run: |
-        python -m unittest segment_function_folder/test/test_app.py
+        python -m unittest segmentfunctionapp/test/test_app.py
 
 
