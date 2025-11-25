@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from main.app import App
+from segmentfunctionapp.main.app import App
 
 
 class TestApp(TestCase):
